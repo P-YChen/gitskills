@@ -49,4 +49,8 @@ git branch branch_name
 git checkout branch_name
 
 git checkout -b branch_name
+git branch -d branch_name
 
+git merge branch_name
+
+git --graph --pretty=oneline --abbrev-commit
