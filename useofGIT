@@ -54,3 +54,11 @@ git branch -d branch_name
 git merge branch_name
 
 git --graph --pretty=oneline --abbrev-commit
+
+14.save
+git stash
+git stash list
+
+git stash apply
+git stash drop
+git stash pop
