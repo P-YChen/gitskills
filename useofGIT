@@ -63,3 +63,7 @@ git stash list
 git stash apply
 git stash drop
 git stash pop
+
+15.push
+git push origin master
+git push origin dev
