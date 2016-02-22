@@ -1,0 +1,32 @@
+1.configure
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+2.make repository
+mkdir repository
+cd repository
+git init
+
+3.add
+git add filename
+
+4.commit
+git commit -m "Message"
+
+5.status
+git status
+
+6.diff
+git diff filename
+
+7.back-to
+git log
+git reset --hard HEAD^
+git reset --hard <commit id>
+
+8.history
+git reflog
+
+9.back-to 
+git checkout --file
+git reset HEAD file
