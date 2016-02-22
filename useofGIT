@@ -30,3 +30,23 @@ git reflog
 9.back-to 
 git checkout --file
 git reset HEAD file
+
+10.delete
+git rm filename
+git commit -m "Message"
+
+11.telnet
+ssh-keygen -t rsa -C "email"
+git remote add origin git@github.com:P-YChen/repositoryname.git
+git push origin master
+git push -u origin master(first time)
+
+12.clone
+git clone git@github.com:P-YChen/repositoryname.git
+
+13.branch
+git branch branch_name
+git checkout branch_name
+
+git checkout -b branch_name
+
